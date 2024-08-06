@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding: 0;
+    margin: 0;
+    height: 100vh; 
+    background-color: #64000048;
+    font-family: 'Roboto';
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 18rem;
+    height: 28rem;
+    background-color: #f1f1f1ce;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, .05), 0 15px 40px rgba(166, 173, 201, .2);
+}
+
+/* .profile {
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    box-shadow:  0 5px 10px rgba(154, 160, 185, .05), 0 15px 40px rgba(166, 173, 201, .2);
+    border: 1px solid #000000;
+    object-fit: cover; 
+    margin-top: -4rem;
+    margin-left: 4.8rem;
+}
+
+.name{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 4.5rem;
+    margin-left: 4rem;
+    white-space: nowrap;
+}
+.title {
+    position: absolute;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 7rem;
+    margin-left: 5.7rem;
+}
+.description {
+    position: absolute;
+    text-align: center;
+    width: 10rem;
+    font-size: 0.7rem;
+    margin-top: 8.8rem;
+    margin-left: 4rem;
+} */
+
+.profile {
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    box-shadow:  0 5px 10px rgba(154, 160, 185, .05), 0 15px 40px rgba(166, 173, 201, .2);
+    border: 1px solid #000000;
+    object-fit: cover; 
+    margin-top: -4rem;
+   
+}
+
+.name{
+    position: absolute;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 4.5rem;
+}
+.title {
+    position: absolute;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 7rem;
+}
+.description {
+    position: absolute;
+    text-align: center;
+    width: 10rem;
+    font-size: 0.7rem;
+    margin-top: 8.8rem;
+}
+
+.skills-title{
+    position: absolute;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 13.5rem;
+}
+
+
+.skills {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.8rem;
+    margin-top: 15.5rem;
+    transition: color 1s ease;
+}
+
+
+.skill-icon1:hover{
+    color: #008dca;
+}
+
+.skill-icon2:hover {
+    color: #cd5600;
+}
+
+.skill-icon3:hover{
+    color: #e0bb00;
+}
+
+.contact-title{
+    position: absolute;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 18.5rem;
+}
+
+.social{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.8rem;
+    margin-top: 20.5rem;
+    transition: color 1s ease;
+}
+
+
+.social-icon1:hover {
+    color: #008dca;
+}
+
+.social-icon2:hover{
+    color: #5fabcb;
+}
+
+.social-icon3:hover{
+    color: #e0a800;
+}
+
+.contact{ 
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.5rem;
+    margin-top: 24.4rem;
+    gap: 0.5rem;
+}
+
